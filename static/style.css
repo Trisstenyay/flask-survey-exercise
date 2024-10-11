@@ -1,0 +1,38 @@
+body{
+    background-color: grey;
+}
+
+
+
+a.btn {
+    display: inline-block;   /* Makes the link behave like a block element */
+    padding: 10px 20px;      /* Button-like padding */
+    background-color: transparent;  /* Button background */
+    color: black;            /* Button text color */
+    text-decoration: none;   /* Remove underline */
+    border: 2px solid black; /* Button border */
+    font-size: 16px;         /* Font size */
+    text-align: center;      /* Center text */
+    cursor: pointer;         /* Changes cursor to pointer */
+}
+
+
+
+
+p{
+    color: black;
+    font-weight: bold;
+}
+
+
+button{
+    display: inline-block;   /* Makes the link behave like a block element */
+    padding: 10px 20px;      /* Button-like padding */
+    background-color: transparent;  /* Button background */
+    color: black;            /* Button text color */
+    text-decoration: none;   /* Remove underline */
+    border: 2px solid black; /* Button border */
+    font-size: 16px;         /* Font size */
+    text-align: center;      /* Center text */
+    cursor: pointer;    
+}
