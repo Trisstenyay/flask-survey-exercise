@@ -5,6 +5,8 @@
 {% block content %} 
 <h1>{{title}}</h1>
 <p>{{instructions}}</p>
-<a href="/questions/0" class="btn">Start</a>
+<form action="/middleware" method="POST">
+    <button type="submit">Start</button>
+</form>
 
 {% endblock %}
